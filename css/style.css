@@ -1,0 +1,644 @@
+
+
+
+/*MOBILE MENUE*/
+
+
+
+/*navigation**************************/
+
+.navbar{
+    padding: 35px  20px 20px 0;
+    transition: all 300ms linear;
+}
+
+
+.site-nav-wrapper{
+    padding: 0 60px;
+}
+
+
+.navbar-brand{
+    padding: 8px 15px;
+}
+ul.navbar-nav > li a{
+color: #ffd740;
+font-size: 16px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus{
+    background: none;
+    color: white;
+}
+/*black navigation*/
+
+.black-nav-top {
+    background: rgba(0, 0, 0, .6);
+    padding: 10px 0px;
+    box-shadow: 0 8px 6px -9px rgb(54, 54, 54);
+    z-index: 2;
+}
+/* active*/
+.black-nav-top ul.navbar-nav > li.active > a{
+    color: white;
+}
+
+
+/*HERO*/
+#hero{
+    background: url("../img/hero-bg-107k.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 20% right;
+    width: 100%;
+    height: 95vh;
+    
+}
+
+.hero-overlay{
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.main-hero{
+    display: table;
+   height: 100%;
+    width: 100%;
+}
+.hero-header{
+    color:white;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.hero-header h1{
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.hero-header h4{
+letter-spacing: 2px;
+font-weight: 400;
+font-style: italic;
+}
+
+
+/*Doing section*/
+
+body{
+    font-family: 'Noto Serif SC', serif;
+}
+
+P{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.margin-top{
+    margin-top: 40px;
+    }
+#doning{
+    background:#ffd740;
+    padding: 20px 20px 50px 20px;
+}
+.image_part h1{
+    font-size: 28px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    
+   
+   
+}
+
+.image_part img{
+
+    margin: 10px 0 20px 0px;
+}
+.doing-heading h1
+{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.underline{
+    width: 100px;
+    height: 3px;
+    background-color:#ffffff;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.doing-heading{
+    margin-bottom: 30px;
+}
+.doing-info{
+    margin-top: 20px;
+}
+#doning i{
+    color: #2b353c;
+    font-size: 40px;
+    margin-bottom: 8px;
+    transition: all .3s;
+
+}
+#doning i:hover{
+    color: rgb(231, 224, 224);
+    font-size: 40px;
+}
+.doing-info h3{
+    margin-bottom: 15px;
+}
+
+.doing-info h3 a{
+    color:#242a2e;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all .2s;
+}
+.doing-info h3 a:hover{
+    color: white;
+}
+
+
+
+/***************ABOUT US*****************/
+
+#about{
+    background-color: #263238;
+    padding: 40px 20px 50px 20px;
+}
+
+
+.about_first{
+width: 50%;
+display: inline-block;
+vertical-align: middle;
+max-width: 450px;
+}
+.about_first img{
+width: 100%;
+
+}
+
+.about-second{
+width: 45%;
+display: inline-block;
+vertical-align: middle;
+padding-left: 40px;
+
+
+}
+.about-information{
+    margin: 0 auto;
+}
+
+
+.about-info h1{
+ color: #ffd740;
+ letter-spacing: 2px;
+ font-size: 30px;
+ margin-bottom: 20px;
+}
+.about-info p{
+color: white;
+}
+.btn-about{
+    
+
+}
+.btn-about a{
+    color:#263238;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: #ffd740;
+    padding: 8px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all .4s;
+margin-top: 25px;
+
+    
+}
+.btn-about a:hover {
+    color: white;
+    background-color: #263238;
+    
+}
+
+/*progress bar */
+
+#progress-outer{
+    background: url("../img/wallpaper2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.progress-bg{
+    background:rgba(0, 0, 0, .65);
+    }
+#progress-elements{
+
+    padding: 120px 0;
+}
+
+.skill{
+    margin: 30px 0px;
+}
+.skill h4{
+    color: white;
+}
+.progress{
+    height: 25px;
+    border-radius: 0;
+    background-color: #d6d2d2;
+    overflow: visible;
+        border: .9px solid rgba(68, 67, 67, 0.781);
+   
+}
+.progress-bar{
+    background-color: #ffd740;
+    position: relative;
+}
+.progress-bar span{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Noto Serif SC", sans-serif;
+    background: #ccccd1;
+    padding: 3px;
+    position: absolute;
+    left: 97%;
+    top: -47px;
+    color: #000;
+}
+.progress-bar span::before{
+    content: "";
+    border-top: 8px solid  #ccccd1;
+    border-left:6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    bottom: -8px;
+    left: 23%;
+}
+
+
+/*blogbackground-color: */
+#Blog{
+    
+    background-color: rgba(38, 50, 56, .8);
+    padding: 20px 0px 50px 0px;
+}
+.blog-heading h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+   letter-spacing: 2px;
+    color: #ffd740;
+   
+margin: 0
+}
+.blog-heading{
+    margin-bottom: 25px;
+}
+.blog-underline {
+    width: 75px;
+    height: 3px;
+    background-color: white;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.blog-content{
+    
+}
+
+.blog-date{
+    padding: 2px 0 8px 0;
+}
+.blog-date span{
+    color: #ccc8c8;
+    font-weight: normal;
+    font-size: 13px;
+    font-style: italic;
+}
+.blog_img{
+   
+   
+   
+}
+.blog_img img{
+    width: 100%;
+    height: auto;
+}
+.blog_info{
+    
+    padding:10px  10px;
+  
+}
+
+.blog_info h2{
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+.blog_info p{
+    margin: 0;
+    color: white;
+}
+.blog-btn{
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding-left: 0;
+    
+}
+
+.blog-btn a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #000;
+   border-radius: 10px;
+    padding: 6px 12px;
+    display: inline-block;
+    font-weight: 400;
+    background-color:  #ffd740;
+    transition: all .2s;
+}
+
+.blog-btn a:hover{
+    background-color: rgb(36, 35, 35);
+    color: #ffd740;
+}
+
+/*GALARY*/
+#galary{
+   
+    background: url("../img/galary/galary-bg-low.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.galary-overlay{
+    background-color: rgba(38, 50, 56, .90);
+    width: 100%;
+    height: 100%;
+    padding: 20px 0px 40px 0px;
+   
+   /* padding-bottom: 60px;*/
+}
+
+.galary-detail{
+    
+}
+.galary-bg{
+    
+}
+
+.galary-heading{
+    margin-bottom: 25px;
+
+}
+
+
+.galary-heading h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+   letter-spacing: 2px;
+    color: #ffd740;
+    margin:0;
+}
+
+#galary-content{
+   
+}
+#galary-content{
+overflow: hidden;
+}
+#galary-content img{
+    transition: all .6s ease;
+    
+}
+
+#galary-content img:hover{
+ 
+    transform: scale(1.5);
+    cursor: zoom-in; 
+}
+
+
+
+
+
+
+.footer-overlay{
+    background-color: rgba(38, 50, 56, .88);
+    height: 100%;
+    width: 100%;
+    padding: 20px 0px 40px 0px;
+}
+.myself{
+    background: url("../img/blog/about-medi-low.jpg");
+    background-repeat: no-repeat;
+    background-size: content;
+    background-position: top 35% right 15%;
+    width: 100%;
+}
+
+.footer-left h1{
+    font-family: 'Satisfy', cursive;
+    color: #ffd740;
+    font-size: 35px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+
+.footer-left p{
+ color: white;
+ margin: 20px 0;
+}
+.footer-left ul{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.footer-left .address li{
+ list-style: none;
+ color: white;
+ margin: 10px 0;
+ font-weight: normal;
+ font-size: 16px;
+ font-style: italic;
+}
+
+.footer-left .social{
+    margin-top: 30px;
+}
+.footer-left .social li{
+    display: inline-block;
+    margin-right: 20px;
+    list-style: none;
+    
+    transition: all .3s ease;
+}
+.footer-left .social li i{
+    font-size: 18px;
+    
+}
+
+.footer-left ul li a{
+    color: #ffd740;
+}
+
+.footer-left ul li a:hover{
+    color: white;
+}
+
+/*form*/
+.footer-right h1{
+   
+    color: #ffd740;
+    font-size: 30px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+.footer-right .form-control{
+    margin-bottom: 25px;
+    background-color:transparent;
+    outline: none;
+    height: 45px;
+    border:none;
+    border-bottom: 2px solid  #ffd740;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: italic;
+    border-radius: 0;
+    color: white;
+}
+
+.footer-right .form-text{
+    min-height: 140px;
+}
+.form-control:focus{
+    
+    box-shadow: none;
+}
+#send-btn a{
+    color:#263238;
+ font-size: 18px;
+ font-weight:500;
+ text-decoration: none;
+ display:inline-block;
+ background-color: #ffd740;
+ padding: 10px 25px;
+ border-radius: 8px;
+ transition: all .3s ease;
+ letter-spacing: 2px;
+
+}
+#send-btn a:hover{
+    color: #263238;
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/*footer copy right*/
+#footer-copyrights{
+   
+    text-align: center;
+    height: 70px;
+    background-color: #263238;
+    line-height: 70px;
+}
+#footer-copyrights p{
+    font-size: 16px;
+    margin: 0;
+    font-weight: normal;
+    color: #ffd740;
+    vertical-align: middle;
+    
+}
+
+
+
+/* css animation*/
+
+.js-wp-1{
+    opacity: 0;
+}
+
+.js-wp-1.animated{
+    opacity: 1;
+
+}
+
+/*animation for progress bar*/
+
+.js-wp-2{
+    opacity: 0;
+}
+
+.js-wp-2.animated{
+    opacity: 1;
+
+}
+
+/* animation for about myself*/
+
+
+.js-wp-3{
+    opacity: 0;
+}
+.js-wp-3.animated{
+    opacity: 1;
+
+}
+
+.js-wp-4{
+    opacity: 0;
+}
+.js-wp-4.animated{
+    opacity: 1;
+
+}
+
+/* animation for blog*/
+
+.js-wp-5{
+    opacity: 0;
+}
+.js-wp-5.animated{
+    opacity: 1;
+
+}
+
+    .js-wp-6{
+        opacity: 0;
+    }
+    .js-wp-6.animated{
+        opacity: 1;
+    
+    }}
