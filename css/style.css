@@ -569,9 +569,9 @@ overflow: hidden;
 #footer-copyrights{
    
     text-align: center;
-    height: 70px;
+   padding: 25px;
     background-color: #263238;
-    line-height: 70px;
+   
 }
 #footer-copyrights p{
     font-size: 16px;
